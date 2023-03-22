@@ -1,0 +1,143 @@
+.contenido{
+   margin: 5rem 2.5rem;
+}
+.contenido h1{
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+   
+    letter-spacing: -3px;
+    transition: 700ms ease;
+/*     font-variation-settings: "wght" 311; */
+   /*  margin-bottom: 0.8rem; */
+    color:#140a33 ;
+    outline: none;
+
+
+}
+.contenido h1:hover{
+    /* font-variation-settings: "wght" 582;  */
+    letter-spacing: 1px;
+}
+.servicios{
+    font-size: 1rem;
+    
+}
+.precio{
+    color: black;
+    text-align: center;
+    font-size: 1.7rem;
+    text-shadow:  3px 0px 7px green, -3px 0px 7px green, 0px 4px 7px green;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+.choose-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+}
+.boton{
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.85);
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    justify-content: center;
+    margin: 1rem;
+ 
+    padding: /* calc(.875rem - 1px) calc(1.5rem - 1px) */ 1rem 1.5rem;
+ 
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+
+}
+
+.contratar{
+    background-color: #fde047;
+    color: black;
+}
+.anular{
+    background-color: orangered;
+    color: white;
+}
+.back{
+    background-color: #140a33;
+    color: white;
+}
+
+.boton:hover,
+.boton:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  /* color: rgba(0, 0, 0, 0.65); */
+}
+
+.boton:hover {
+  transform: translateY(-1px);
+}
+
+.boton:active {
+  
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  /* color: rgba(0, 0, 0, 0.65); */
+  transform: translateY(0);
+}
+/* 
+@media screen and (max-width:760px){
+    .boton{
+        font-size: 15px;
+        font-weight: 600;
+        margin: 0.5rem;
+        min-height: 1rem;
+        padding: 0.8rem 3rem;
+    }
+}
+ */
+
+@media screen and (min-width:560px){
+    .contenido h1{
+        font-size: 2.5rem;
+    }
+    .servicios{
+        font-size: 1.5rem;
+    }    
+    .precio{
+        font-size: 2rem;
+    }
+    .boton{
+        font-size: 18px;
+        padding: 1.3rem 1.9rem;
+    }
+    .route-image{
+        width: 500px;
+        margin: auto;
+      }
+}
+
+@media screen and (min-width:1024px){
+    .contenido h1{
+        font-size: 3rem;
+    }
+    .servicios{
+        font-size: 1.8rem;
+    }
+    .precio{
+        font-size: 2.2rem;
+    }
+    .boton{
+        margin: 3rem;
+        font-size: 20px;
+        padding: 1.5rem 2.2;
+    }
+}

@@ -1,0 +1,58 @@
+.login{
+    width: 100%;
+    height: auto;
+    border: 6px solid orangered;
+    margin: 5rem auto;
+    color: orangered;
+}
+.input input{
+        color: orangered;
+        padding: 10px 20px;
+        font-size: 1em;
+        outline: none;
+        border: 1px dotted orangered;
+        border-radius: 5px ;
+
+}
+
+.secContent{
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.btn{
+    margin-top: 1rem;
+    color: white;
+    font-weight: 600;
+    justify-content: space-between;
+    gap: .5rem;
+}
+.botonRegistro{
+    background-color: orangered;
+    color: white;
+    font-size: 1.1em;
+    padding: 4px 10px;
+    border: 1px solid orangered;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  } 
+@media screen and (min-width:500px){
+    .input input{
+        
+        padding: 10px 40px;
+}
+}
+
+@media screen and (min-width:1024px){
+    .login{
+        width:60%;
+    }
+    .input input{
+        padding: 10px 80px;
+}
+    .section{
+        padding: 6rem 0 4rem;
+    }
+}
+

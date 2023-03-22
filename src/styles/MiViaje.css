@@ -1,0 +1,139 @@
+
+
+.aviso{
+  background: #e41749;
+  margin: 2rem;
+ 
+  color: white;
+  font-weight: bold;
+  padding: 1rem;
+  border-radius: 5px;
+  width: 70vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.aviso a{
+  color: black;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.inline{
+  display: inline-block;
+  /* white-space: nowrap; */
+ /*  text-overflow: ellipsis;
+  overflow: hidden; */
+}
+
+ .cash {
+  color: green;
+  font-weight: bold;
+ }
+.icon{
+  width: 30px;
+  height: 30px;
+  display: block;
+  margin: 0 auto;
+}
+
+.referencia{
+    margin: 4rem 2rem;
+   text-align: left;
+   font-size: 1.5rem;
+
+}
+.result{
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin-left: 1rem;
+  font-size: 1.2rem;
+}
+.result > button{
+ align-items: center;
+  background-clip: padding-box;
+  background-color: #fa6400;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: 1rem 1.5rem;
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.result > button:hover,
+.result > button:focus {
+  background-color: #fb8332;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.result > button:hover {
+  transform: translateY(-1px);
+}
+
+.result > button:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
+
+.ruta{
+    margin-top: 6rem;
+    display: block;
+}
+.ruta > h3{
+    color: black;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    
+}
+.total{
+  margin-top: 3rem;
+}
+
+@media screen and (min-width: 560px){
+  .ruta{
+    display: block;
+  }
+  .ruta > h3{
+    text-align: center;
+  }
+  .aviso{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+/*     margin: 2rem 8rem; */
+    width: 50vw;
+   
+    margin: 0 auto;
+  }
+  
+}
+@media screen and (min-width:750px){
+  .aviso{
+    font-size: 1.2rem;
+    
+  }
+}
+@media screen and (min-width:1024px){
+  .aviso{
+    font-size: 1.4rem;
+  }
+}
