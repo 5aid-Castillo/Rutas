@@ -37,7 +37,7 @@ const Comprar = () => {
       dispatch2(action)
   }
 
-  const imagen = `/images/${destinoEncontrado.imagen}`
+  /* const imagen = `/images/${destinoEncontrado.imagen}` */
   if(!destinoEncontrado){
     return <Navigate to="/no"/>
   }
@@ -67,7 +67,7 @@ const Comprar = () => {
             initial={{x:200}}
             transition={{duration:2}}
             animate={{x:0}}
-        ><img src={imagen} alt=""/>
+        ><img src={destinoEncontrado.imagen} alt=""/>
         </motion.div>
         
         <div className="choose-buttons">
