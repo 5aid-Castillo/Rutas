@@ -22,7 +22,7 @@ const NavBar = () => {
           <button  className="burger mobile"><Hamburger color="#000" toggled={isOpen} toggle={setOpen} /> </button>
               
               <div id="navbar" className={isOpen ?"#navbar active" :"navbar"}>
-                  <NavLink onClick={close} to="/cp">Capital y Patagonia</NavLink>
+                  <NavLink onClick={close} to="/Rutas">Capital y Patagonia</NavLink>
                   <NavLink onClick={close} to="/no">Norte y Este</NavLink>
                   <NavLink onClick={close} to="/viaje">Mi Viaje</NavLink>
           {/*         <NavLink onClick={close}  to="/login">Login</NavLink> */}

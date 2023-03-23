@@ -13,12 +13,12 @@ const Router2 = () => {
         <NavBar />
         <Routes>
            
-            <Route path="cp" element={<CP />}/>
+            <Route path="Rutas" element={<CP />}/>
             <Route path="no" element={<NO />}/>
             <Route path="viaje" element={<MiViaje />}/>
             <Route path="destino/:nombre" element={<Comprar />} />
    
-            <Route path="/*" element={<Navigate to="cp"/>}/> 
+            <Route path="/*" element={<Navigate to="Rutas"/>}/> 
         </Routes>
     </>
   )
