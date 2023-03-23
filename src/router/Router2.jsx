@@ -18,7 +18,7 @@ const Router2 = () => {
             <Route path="viaje" element={<MiViaje />}/>
             <Route path="destino/:nombre" element={<Comprar />} />
    
-            <Route path="/" element={<Navigate to="cp"/>}/> 
+            <Route path="/*" element={<Navigate to="cp"/>}/> 
         </Routes>
     </>
   )
