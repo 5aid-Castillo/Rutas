@@ -1,6 +1,6 @@
 import React from 'react'
 import Destino from '../pages/Destino';
-import data from './data';
+import data from './data.js'
 import '../styles/Destinos.css';
 import {motion} from 'framer-motion';
 

@@ -8,7 +8,7 @@ const Login = () => {
    const navegacion = useNavigate();
    const login = () =>{
      logearse(referencia) 
-      navegacion('/Rutas',{replace:true});
+      navegacion('/',{replace:true});
   }
   const registro = (e) => {
     setReferencia(e.currentTarget.value)

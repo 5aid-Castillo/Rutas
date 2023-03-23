@@ -1,8 +1,23 @@
+import img1 from '../assets/cafayate.jpg';
+import img2 from '../assets/pncardones.jpg';
+import img3 from '../assets/polvorilla.jpg';
+import img4 from '../assets/iruya.jpg';
+import img5 from '../assets/buenosaires.jpg';
+import img6 from '../assets/cataratas.jpg';
+import img7 from '../assets/rosario.jpg';
+import img8 from '../assets/cordoba.jpg';
+import img9 from '../assets/mendoza.jpg';
+import img10 from '../assets/cumbrecita.jpg';
+import img11 from '../assets/chiquitalake.jpg';
+import img12 from '../assets/madryn.jpg';
+import img13 from '../assets/parque.jpg';
+import img14 from '../assets/rada.jpg';
+
 const data = [
     {
        'nombre':'Cafayate',
        'zona':'no',
-       'imagen':'cafayate.jpg',
+       'imagen':img1,
        'situacion':'Localidad de los valles Calchaquíes de la provincia de Salta.',
        'servicio':'Visita a las formaciones de roca caliza y viñedos',
        'precio':90
@@ -10,7 +25,7 @@ const data = [
     {
        'nombre':'Parque Nacional Los Cardones',
        'zona':'no',
-       'imagen':'cachi.webp',
+       'imagen':img2,
        'situacion':'Cerca de la localidad de Payogasta (Selva de las Yungas).',
        'servicio':'Caminata por la desértica belleza del Parque Nacional',
        'precio':85
@@ -18,7 +33,7 @@ const data = [
     {
        'nombre':'Viaducto La Polvorilla',
        'zona':'no',
-       'imagen':'polvorilla.jpg',
+       'imagen':img3,
        'situacion':'Recorrido en el Tren a las Nubes (desde Salta).',
        'servicio':"Recorrido por los viaductos del Tren a las Nubes del ramal C-14",
        'precio':124
@@ -26,7 +41,7 @@ const data = [
     {
        'nombre':'Iruya',
        'zona':'no',
-       'imagen':'iruya.jpg',
+       'imagen':img4,
        'situacion':'Provincia de Salta (Sierra de Santa Victoria).',
        'servicio':"Recorrido por la zona (Mirador, Río, iglesias..)",
        'precio':78
@@ -34,7 +49,7 @@ const data = [
     {
        'nombre':'Buenos Aires',
        'zona':'no',
-       'imagen':'buenosaires.jpg',
+       'imagen':img5,
        'situacion':'Ciudad autónoma y capital federal de Argentina.',
        'servicio':"Visita los barrios y plazas más representativos",
        'precio':195
@@ -42,23 +57,16 @@ const data = [
     {
        'nombre':'Cataratas del Iguazú',
        'zona':'no',
-       'imagen':'iguazu.jpg',
+       'imagen':img6,
        'situacion':'Entre las provincias de Misiones y Paraná.',
        'servicio':"Recorrido por los diferentes senderos (Macuco..)",
        'precio':172
     },
-    /* {
-       'nombre':'San Nicolás de los Arroyos',
-       'zona':'no',
-       'imagen':'san_nicolas_de_los_arroyos.jpg',
-       'situacion':'Extremo norte de la Provincia de Buenos Aires.',
-       'servicio':"Escapada a Santuario, Teatro, Parque y Catedral",
-       'precio':82
-    }, */
+   
     {
        'nombre':'Rosario',
        'zona':'no',
-       'imagen':'rosario.webp',
+       'imagen':img7,
        'situacion':'Sureste de la Provincia de Santa Fé del Departamento de Rosario.',
        'servicio':"Recorrido por el Monumento, museos y parques",
        'precio':79
@@ -66,7 +74,7 @@ const data = [
     {
        'nombre':'Córdoba',
        'zona':'cp',
-       'imagen':'cosquin.webp',
+       'imagen':img8,
        'situacion':'Capital de la Provincia de Córdoba (a orillas del río Suquía).',
        'servicio':"Visita a Altas Cumbres, Capuchinos, 100 curvas y Museos",
        'precio':85
@@ -74,7 +82,7 @@ const data = [
     {
        'nombre':'Mendoza',
        'zona':'cp',
-       'imagen':'mendoza.webp',
+       'imagen':img9,
        'situacion':'Capital de la Provincia, al este de la Cordillera de los Andes.',
        'servicio':"Visita al Aconcagua, viñedos, bodegas y parques",
        'precio':71
@@ -82,7 +90,7 @@ const data = [
     {
        'nombre':'La cumbrecita',
        'zona':'cp',
-       'imagen':'cumbrecita.webp',
+       'imagen':img10,
        'situacion':'Valle de Calamuchita (Sierras Grandes, Provincia de Córdoba).',
        'servicio':"Visita a las cascadas, peñón y río subterráneo",
        'precio':83
@@ -90,7 +98,7 @@ const data = [
     {
        'nombre':'Mar Chiquita Lake',
        'zona':'cp',
-       'imagen':'mar_chiquita_lake.jpg',
+       'imagen':img11,
        'situacion':'Noroeste de la Provincia de Córdoba (Santiago del Estero).',
        'servicio':"Paseo en bote por la costonera, playa y el Mistolar",
        'precio':182
@@ -98,7 +106,7 @@ const data = [
     {
        'nombre':'Puerto Madryn',
        'zona':'cp',
-       'imagen':'madryn.webp',
+       'imagen':img12,
        'situacion':'Noroeste de la Provincia de Chubut (Dpto. de Biedma).',
        'servicio':"Ver las ballenas y lobos marinos en Punta Loma",
        'precio':197
@@ -106,7 +114,7 @@ const data = [
     {
        'nombre':'Parque Nal. Monte León',
        'zona':'cp',
-       'imagen':'monte_leon.webp',
+       'imagen':img13,
        'situacion':'Litoral marítimo de la Provincia de Santa Cruz (Patagonia).',
        'servicio':"Recorrido por los senderos y lagos del Parque",
        'precio':69
@@ -114,19 +122,12 @@ const data = [
     {
        'nombre':'Rada Tilly',
        'zona':'cp',
-       'imagen':'rada_tilly.jpg',
+       'imagen':img14,
        'situacion':'Provincia del Chubut (a 15 km. al sur de Comodoro Rivadavia).',
        'servicio':"Visita a la Reserva Natural y Museo Regional",
        'precio':112
     },
-    {
-       'nombre':'Puerto Deseado',
-       'zona':'cp',
-       'imagen':'puerto_deseado.jpg',
-       'situacion':'Provincia de Santa Cruz (al norte de la Ría Deseado).',
-       'servicio':"Visita Isla Pinguinos, Reserva Natural y Gruta",
-       'precio':163
-    },
+
  ]
  
  export default data
